@@ -1,0 +1,65 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(img/transpa2.png);
+    color: #000000
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+a {
+    color: #22b9ff;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/*Navigation*/ 
+.nav-main{
+font-size: 17px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 60px;
+padding: 20px 0;
+}
+.nav-brand {
+    width: 50px;
+}
+
+/*NAV LEFT*/
+.nav-main ul{
+    display: flex;
+}
+.nav-main ul li {
+    padding: 10px;
+}
+.nav-main ul li a:hover {
+    border-bottom: 3px solid #000000;
+}
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.2rem;
+    display: none;
+}
+/* SHOWCASE */
+hr{
+    margin: 10px 0;
+}
